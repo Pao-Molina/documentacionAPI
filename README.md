@@ -209,6 +209,7 @@ Se configuró el recurso `Ficha` con la siguiente estructura de datos:
 * **Respuesta de Postman:** 
 ```json
 "Not found" 
+```
 
 ## 3. Resumen de Endpoints y Códigos HTTP
 
