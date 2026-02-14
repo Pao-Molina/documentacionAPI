@@ -1,6 +1,6 @@
 # Proyecto: API de Reserva de libros en Catálogo Digital
 
-* **Estudiante:** Paola Andrea Molina Valderrama*
+**Estudiante:** Paola Andrea Molina Valderrama
 
 **URL de la API:** `https://698a814b6c6f9ebe57b9f450.mockapi.io/Fichas`
 
@@ -29,8 +29,8 @@ Se configuró el recurso `Ficha` con la siguiente estructura de datos:
         ],
         "disponibilidad": false,
         "codigo": "1"
-    } 
-
+    }
+```
 
 ## 2. Bitácora de Operaciones CRUD (Respuestas de Postman)
 
@@ -63,7 +63,8 @@ Se configuró el recurso `Ficha` con la siguiente estructura de datos:
     "disponibilidad": false,
     "codigo": "1"
 } 
-] 
+]
+``` 
 
 ### B. Creación de un nuevo registro (POST)
 
@@ -91,7 +92,8 @@ Se configuró el recurso `Ficha` con la siguiente estructura de datos:
     ],
     "disponibilidad": true,
     "codigo": "1"
-} 
+}
+``` 
 
 * **Respuesta de Postman:**
 ```json
@@ -115,7 +117,8 @@ Se configuró el recurso `Ficha` con la siguiente estructura de datos:
     ],
     "disponibilidad": true,
     "codigo": "9"
-}```
+}
+```
 
 ### C. Consulta de registro individual (GET)
 
@@ -142,6 +145,7 @@ Se configuró el recurso `Ficha` con la siguiente estructura de datos:
     "disponibilidad": true,
     "codigo": "2"
 }
+```
 
 ### D. Actualización de un registro (PUT)
 
@@ -168,8 +172,9 @@ Se configuró el recurso `Ficha` con la siguiente estructura de datos:
     ],
     "disponibilidad": false,
     "codigo": "2"
-} 
-
+}
+```
+ 
 ### E. Eliminación de un registro (DELETE)
 
 * **Status Code:** `200 OK`
@@ -195,6 +200,7 @@ Se configuró el recurso `Ficha` con la siguiente estructura de datos:
     "disponibilidad": true,
     "codigo": "4"
 }
+```
 
 ### F. Validación de Recurso Inexistente (GET 404)
 
